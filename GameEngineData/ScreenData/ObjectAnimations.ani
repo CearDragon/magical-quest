@@ -2,11 +2,17 @@
 ;;;; 0 GameItem: Player
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Player
-;; Size = 1 by1
+;; Size = 2 by2
 ;; Animation = DefaultAnimation
 GameItem0_0:
 .db #$00
 .db #%00000000
+.db #$01
+.db #%00000000
+.db #$10
+.db #%00000001
+.db #$11
+.db #%00000001
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -1,1 +1,17 @@
 NESMaker.exe
+# Ignore compiled ROMs and debug files
+*.nes
+*.lst
+*.dbg
+*.map
+*.bin
+
+# Ignore build and temp files
+Build/
+Temp/
+
+# Ignore backups and logs
+Backup/
+*.bak
+*.log
+*.tmp
