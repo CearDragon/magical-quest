@@ -1,50 +1,50 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Sunday, March 30, 2025 9:48:10 PM
+;; Script link export. Tuesday, April 01, 2025 10:53:08 AM
 ScriptAddressLo:
-	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04
+	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06
 ScriptAddressHi:
-	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04
+	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06
 
 TargetScriptBank:
-	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
+	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
 
 ;;=======================PRESSED=======================
 DefinedInputs_Pressed:
-
+	.db #%10000000, #%00010000, #%01000000, #%00100000
 
 DefinedScriptGameStates_Pressed:
-
+	.db #$00, #$00, #$00, #$00
 
 DefinedTargetObjects_Pressed:
-
+	.db #$00, #$00, #$00, #$00
 
 DefinedTargetController_Pressed:
-
+	.db #$00, #$00, #$00, #$00
 
 TargetState_Pressed:
-
+	.db #$00, #$00, #$00, #$00
 
 DefinedTargetScripts_Pressed:
-
+	.db #$05, #$05, #$05, #$05
 
 ;;=======================RELEASE=======================
 DefinedInputs_Released:
-	.db #%00010000, #%00100000, #%01000000, #%10000000
+	.db #%00010000, #%00100000, #%01000000, #%10000000, #%00010000, #%01000000, #%00100000, #%10000000
 
 DefinedScriptGameStates_Released:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetObjects_Released:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetController_Released:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 TargetState_Released:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetScripts_Released:
-	.db #$04, #$04, #$04, #$04
+	.db #$04, #$04, #$04, #$04, #$06, #$06, #$06, #$06
 
 ;;=======================HOLD=======================
 DefinedInputs_Held:

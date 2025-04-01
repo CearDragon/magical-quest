@@ -62,15 +62,15 @@ GameItem14_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Crab
 Object0_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Crab
 Object1_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Crab
 Object2_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
